@@ -25,16 +25,17 @@ was my last time truly trying to use ChatGPT to avoid having to think. It failed
 clear that for complex tasks it was just not up to snuff. Not to mention, using it was not as enjoyable or fulfilling as working it 
 out myself, even when it worked. 
 
+### 📚 The Learning Process
 In the end, I settled on my solution. I would learn to use Unreal Engine through a tutorial on how to make a grappling hook (available
 [here](https://www.youtube.com/watch?v=HvKfbWPu79w)) and perhaps some other general tutorials. After I felt like I understood that, 
 I would then move on to leaning more on documentation and creating my own effects. 
 
-This was my first time really planning my learning,
-which was spurred on by the horrific start to this project with ChatGPT and general failed learning, and it actually went incredibly
-well. I plan on making a project in rust some time soon, and I hope to be able to plan a path of how to learn for that in a similar 
-way thanks to my experiences with this.
+This was my first time really planning my learning, which was spurred on by the horrific start to this project with ChatGPT and 
+general failed learning, and it actually went incredibly well. I plan on making a project in rust some time soon, and I hope to be 
+able to plan a path of how to learn for that in a similar way thanks to my experiences with this.
 
 ### 📼 Good Old Grapple Hooks
+
 
 
 
