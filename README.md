@@ -11,7 +11,7 @@ as you move around the test scene.
 
 ## The Development Process 🛠
 
-### 🐣 A Fresh Start
+### 🐣 New Beginnings
 The first step in development for this project was learning Unreal Engine 5. This module left us to our own devices mostly in terms 
 of learning, which meant that this would be a test of my research skills. Unfortunately, an immediate barrier to learning showed 
 itself as early as the first google search: a lot of the C++ information seemed to get lost in the swamps of blueprint tutorials.
