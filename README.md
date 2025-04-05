@@ -12,3 +12,21 @@ as you move around the test scene.
 ## The Development Process 🛠
 
 ### 🎮 An Unreal Experience
+The first step in development for this project was learning Unreal Engine 5. This module left us to our own devices mostly in terms 
+of learning, which meant that this would be a test of my research skills. Unfortunately, an immediate barrier to learning showed 
+itself as early as the first google search: a lot of the C++ information seemed to get lost in the swamps of blueprint tutorials.
+
+Unreal Engine was very new to me and was completely different compared to the Unity I had some more experience with - which was my 
+only frame of reference for a game engine. It felt quite important that I find at least a beginners guide of some sort, which went
+beyond the blueprint functionality and into the setup for coding. I will admit that I tried - again - to lean on ChatGPT to sidestep
+this learning process and - again - was burned when it couldn't complete the complex tasks I asked of it. It did a bad job, none of 
+it worked, and I quickly realised that if I wanted this project to go anywhere I had to get off that path and take a new one. This
+was my last time truly trying to use ChatGPT to avoid having to think. It failed me every time I leaned on it to hard, and it was 
+clear that for complex tasks it was just not up to snuff. Not to mention, using it was not as enjoyable or fulfilling as working it 
+out myself, even when it worked. 
+
+In the end, I settled on my solution. I would learn to use Unreal Engine through a tutorial on how to make a grappling hook (available
+[here](https://www.youtube.com/watch?v=HvKfbWPu79w))
+
+
+
