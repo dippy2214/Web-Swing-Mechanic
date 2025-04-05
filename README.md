@@ -42,9 +42,10 @@ the physics myself, even though the uni would have been ok with me learning thro
 the final product. Nonetheless, adjusting to the unreal way of doing things was an interesting experience for me.
 
 To start with, there was a lot more boiler plate the Unity. While Unity would give you access to a GameObject with a script which 
-inherits from 'MonoBehaviour' when you want to create a new script to add to your game, Unreal Engine has Actors, Pawns and Characters. 
-From what I understand, there is a much more clear idea in Unreal Engine of exactly how they want you to structure everything. Unreal 
-Engine also exposes the entirety of the engine to programmers, which was very daunting at first. 
+inherits from 'MonoBehaviour' when you want to create a new script to add to your game, Unreal Engine has Actors, Pawns and Characters,
+which just show you all their code upfront. From what I understand, there is a much more clear idea in Unreal Engine of exactly how 
+they want you to structure everything. Unreal Engine also exposes the entirety of the engine to programmers, which was very daunting 
+at first. 
 
 However, as I got more used to these different systems I found that the biggest frustrations I had with the engine compared to Unity 
 was the developer tools. Unreal Engine's live coding support sometimes just didn't seem to work, and it was far less seamless than
@@ -54,7 +55,8 @@ tell. This was just plain annoying to work with, and reminds me how important se
 However, as I got into the flow of things I soon started to understand and even like Unreal Engine. It offered a lot of power and a
 different outlook on how things are done, and I found it's deep systems quite interesting to explore.
 
-### 
+### 🙄 A Classic Grappling Hook
+
 
 
 
