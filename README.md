@@ -11,7 +11,7 @@ as you move around the test scene.
 
 ## The Development Process 🛠
 
-### 🎮 An Unreal Experience
+### 🐣 A Fresh Start
 The first step in development for this project was learning Unreal Engine 5. This module left us to our own devices mostly in terms 
 of learning, which meant that this would be a test of my research skills. Unfortunately, an immediate barrier to learning showed 
 itself as early as the first google search: a lot of the C++ information seemed to get lost in the swamps of blueprint tutorials.
@@ -34,9 +34,27 @@ This was my first time really planning my learning, which was spurred on by the 
 general failed learning, and it actually went incredibly well. I plan on making a project in rust some time soon, and I hope to be 
 able to plan a path of how to learn for that in a similar way thanks to my experiences with this.
 
-### 📼 Good Old Grapple Hooks
+### 🎮 An Unreal Experience
+The grapple hook I started with was designed in the style of link's hookshot from the legend of zelda, or something batman would use 
+to get around gotham city. It would connect to a single point and pull the player towards it, rather than being something used to 
+swing around. This was partly because I felt like since I was using tutorials it would be more suitable to do this and figure out 
+the physics myself, even though the uni would have been ok with me learning through tutorials more and making smaller changes to 
+the final product. Nonetheless, adjusting to the unreal way of doing things was an interesting experience for me.
 
+To start with, there was a lot more boiler plate the Unity. While Unity would give you access to a GameObject with a script which 
+inherits from 'MonoBehaviour' when you want to create a new script to add to your game, Unreal Engine has Actors, Pawns and Characters. 
+From what I understand, there is a much more clear idea in Unreal Engine of exactly how they want you to structure everything. Unreal 
+Engine also exposes the entirety of the engine to programmers, which was very daunting at first. 
 
+However, as I got more used to these different systems I found that the biggest frustrations I had with the engine compared to Unity 
+was the developer tools. Unreal Engine's live coding support sometimes just didn't seem to work, and it was far less seamless than
+with Unity. I also just could not make semantic analysis work properly, an issue prevelant throughout the whole class from what I can 
+tell. This was just plain annoying to work with, and reminds me how important setting up a good enviroment is. 
+
+However, as I got into the flow of things I soon started to understand and even like Unreal Engine. It offered a lot of power and a
+different outlook on how things are done, and I found it's deep systems quite interesting to explore.
+
+### 
 
 
 
