@@ -28,7 +28,7 @@ out myself, even when it worked.
 ### 📚 The Learning Process
 In the end, I settled on my solution. I would learn to use Unreal Engine through a tutorial on how to make a grappling hook (available
 [here](https://www.youtube.com/watch?v=HvKfbWPu79w)) and perhaps some other general tutorials. After I felt like I understood that, 
-I would then move on to leaning more on documentation and creating my own effects. 
+I would then move on to leaning more on documentation and creating my own expansions to the program. 
 
 This was my first time really planning my learning, which was spurred on by the horrific start to this project with ChatGPT and 
 general failed learning, and it actually went incredibly well. I plan on making a project in rust some time soon, and I hope to be 
