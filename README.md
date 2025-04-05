@@ -5,4 +5,6 @@ The physics were custom made for this project by me, and I had a lot of fun deve
 as you move around the test scene.
 
 ## Demo Video ⏯
-
+<a href="https://www.youtube.com/watch?v=yX-MT0WEeu4">
+  <img src="https://img.youtube.com/vi/yX-MT0WEeu4/maxresdefault.jpg" alt="Watch the video" width="600" height="337">
+</a>
