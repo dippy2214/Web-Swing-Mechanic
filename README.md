@@ -81,10 +81,16 @@ interactions with the player built in - they just attached one point to another.
 that some maths is required. I found [Rodrigues' rotation formula](https://en.wikipedia.org/wiki/Rodrigues'_rotation_formula), which can
 be used to define rotations around a sphere in 3D space. The formula states:
 
-'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which v rotates by an angle θ according to the right 
-hand rule, the Rodrigues formula for the rotated vector vrot is
+'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which V rotates by an angle a according to the right 
+hand rule, the Rodrigues formula for the rotated vector Vrot is:
 
 *Vrot = V cos(a) + (k * V) sin(a) + k (k . V) (1 - cos(a))*'
+
+The axis vector k can also be defined as the cross product of any two non-zero vectors which define the plane of rotation, which is a
+useful tool for my purposes. My idea is to find the plane between the player and the point on the wall which they are attached to by 
+using the point on the wall and the player's direction, and then apply the rotation formula to the player to create the swing effect.
+This took me some time to figure out all the maths and how to make this into a computer algorithm, but the implementation went relatively
+smooth.
 
 
 
