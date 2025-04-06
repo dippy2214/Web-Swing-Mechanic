@@ -77,7 +77,47 @@ too.
 
 ### 👨‍💻 Making The Changes
 To make these changes, I decided to override Unreal Engines build in physics. The cables themselves were purely visual, with no physics
-interactions with the player built in - they just attached one point to another. 
+interactions with the player built in - they just attached one point to another. The behaviour I want is the arcing swings, and for
+that some maths is required. I found [Rodrigues' rotation formula](https://en.wikipedia.org/wiki/Rodrigues'_rotation_formula), which can
+be used to define rotations around a sphere in 3D space. The formula states:
+
+'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which v rotates by an angle θ according to the right hand rule, the Rodrigues formula for the rotated vector vrot is
+
+v
+r
+o
+t
+=
+v
+cos
+⁡
+θ
++
+(
+k
+×
+v
+)
+sin
+⁡
+θ
++
+k
+ 
+(
+k
+⋅
+v
+)
+(
+1
+−
+cos
+⁡
+θ
+)
+.
+{\displaystyle \mathbf {v} _{\mathrm {rot} }=\mathbf {v} \cos \theta +(\mathbf {k} \times \mathbf {v} )\sin \theta +\mathbf {k} ~(\mathbf {k} \cdot \mathbf {v} )(1-\cos \theta )\,.}
 
 
 
