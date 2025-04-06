@@ -37,9 +37,9 @@ able to plan a path of how to learn for that in a similar way thanks to my exper
 ### 🎮 An Unreal Experience
 Adjusting to Unreal Engine was an interesting experience. To start with, there was a lot more boiler plate the Unity. While Unity 
 would give you access to a GameObject with a script which inherits from 'MonoBehaviour' when you want to create a new script to add 
-to your game, Unreal Engine has Actors, Pawns and Characters, which just show you all their code upfront. From what I understand, 
-there is a much more clear idea in Unreal Engine of exactly how they want you to structure everything. Unreal Engine also exposes 
-the entirety of the engine to programmers, which was very daunting at first. 
+to your game, Unreal Engine has Actors, Pawns and Characters, which just show you all their code upfront. Constantly defining 
+UProperties feels weird to me. From what I understand, there is a much more clear idea in Unreal Engine of exactly how they want 
+you to structure everything. Unreal Engine also exposes the entirety of the engine to programmers, which was very daunting at first. 
 
 However, as I got more used to these different systems I found that the biggest frustrations I had with the engine compared to Unity 
 was the developer tools. Unreal Engine's live coding support sometimes just didn't seem to work, and it was far less seamless than
