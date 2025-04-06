@@ -58,8 +58,9 @@ product.
 
 This worked by using a raycast to connect to a point of terrain, and then applying a force to the player character to move towards 
 that point. Add in a simple unreal engine cable for a visual effect to conenct the player to the point, and we have the most basic
-form of a grapple hook imaginable, and where the tutorial left me. This does have some problems though. The movement while in the air 
-as you grapple feelings very strange, as does falling immediately when you get to the top of a wall rather than getting on top of it.
+form of a grapple hook imaginable which was where the tutorial left me. This does have some problems though. The movement while in the 
+air as you grapple feelings very strange, as does falling immediately when you get to the top of a wall rather than getting on top of 
+it.
 
 ### 💡 Ideas For Improvement
 So what's next? 
@@ -75,7 +76,8 @@ kind of thing is very important for the feel of these games, and if time allows 
 too.
 
 ### 👨‍💻 Making The Changes
-
+To make these changes, I decided to override Unreal Engines build in physics. The cables themselves were purely visual, with no physics
+interactions with the player built in - they just attached one point to another. 
 
 
 
