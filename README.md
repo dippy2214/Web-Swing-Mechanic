@@ -81,9 +81,10 @@ interactions with the player built in - they just attached one point to another.
 that some maths is required. I found [Rodrigues' rotation formula](https://en.wikipedia.org/wiki/Rodrigues'_rotation_formula), which can
 be used to define rotations around a sphere in 3D space. The formula states:
 
-'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which v rotates by an angle θ according to the right hand rule, the Rodrigues formula for the rotated vector vrot is
+'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which v rotates by an angle θ according to the right 
+hand rule, the Rodrigues formula for the rotated vector vrot is
 
-![image](https://github.com/user-attachments/assets/c5975eb7-2b71-47d6-b289-2e4c65d015d1)
+[image](https://github.com/user-attachments/assets/c5975eb7-2b71-47d6-b289-2e4c65d015d1)
 
 
 
