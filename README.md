@@ -84,7 +84,7 @@ be used to define rotations around a sphere in 3D space. The formula states:
 'If v is a vector in ℝ3 and k is a unit vector describing an axis of rotation about which v rotates by an angle θ according to the right 
 hand rule, the Rodrigues formula for the rotated vector vrot is
 
-Vrot = V cos(a) + (k * V) sin(a) + k (k . V) (1 - cos(a))'
+*Vrot = V cos(a) + (k * V) sin(a) + k (k . V) (1 - cos(a))*'
 
 
 
