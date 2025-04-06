@@ -101,7 +101,10 @@ almost instantly kill all momentum the player has. This is where the issue with 
 flying state to get around this because of the bugs it can cause when landing, which require complicated systems to govern how the 
 exact interactions should behave and are error prone and hard to test all cases for.
 
-
+The solution I settled on for this problem was to maintain velocity through the swing. The program would calculate the velocity the 
+player had starting the swing, and scale the velocity at the end of each tick to match this magnitude. This kept the momentum in the 
+system very well, but there was still an issue when the player hit the end of the swing. I solved this by applying a simple upward 
+force at the end of the swing if the player was moving upwards.
 
 
 
