@@ -66,6 +66,15 @@ So what's next?
 
 To transform this simple grappling hook into the web swing I envisioned, there was a lot of work still to do. The idea of connecting
 to a point on objects is useful, and it's fairly simply to make this check for objects of a specific type by using collision channels.
+However, the weirdness in the movement when grappling has to be changed, and we need to get rid of the force drawing us towards the
+point and replace it with some fun swinging mechanics.
+
+It could also be nice to add some polish. The spider man games have some nice features for zipping towards a specific point, or a launch
+to get you off the ground initially - things to make the movement flow between the swinging and the regular on the ground action. This
+kind of thing is very important for the feel of these games, and if time allows then it would be very nice to add that to this project
+too.
+
+### 👨‍💻 Making The Changes
 
 
 
