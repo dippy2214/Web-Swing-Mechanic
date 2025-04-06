@@ -35,17 +35,11 @@ general failed learning, and it actually went incredibly well. I plan on making 
 able to plan a path of how to learn for that in a similar way thanks to my experiences with this.
 
 ### 🎮 An Unreal Experience
-The grapple hook I started with was designed in the style of link's hookshot from the legend of zelda, or something batman would use 
-to get around gotham city. It would connect to a single point and pull the player towards it, rather than being something used to 
-swing around. This was partly because I felt like since I was using tutorials it would be more suitable to do this and figure out 
-the physics myself, even though the uni would have been ok with me learning through tutorials more and making smaller changes to 
-the final product. Nonetheless, adjusting to the unreal way of doing things was an interesting experience for me.
-
-To start with, there was a lot more boiler plate the Unity. While Unity would give you access to a GameObject with a script which 
-inherits from 'MonoBehaviour' when you want to create a new script to add to your game, Unreal Engine has Actors, Pawns and Characters,
-which just show you all their code upfront. From what I understand, there is a much more clear idea in Unreal Engine of exactly how 
-they want you to structure everything. Unreal Engine also exposes the entirety of the engine to programmers, which was very daunting 
-at first. 
+Adjusting to Unreal Engine was an interesting experience. To start with, there was a lot more boiler plate the Unity. While Unity 
+would give you access to a GameObject with a script which inherits from 'MonoBehaviour' when you want to create a new script to add 
+to your game, Unreal Engine has Actors, Pawns and Characters, which just show you all their code upfront. From what I understand, 
+there is a much more clear idea in Unreal Engine of exactly how they want you to structure everything. Unreal Engine also exposes 
+the entirety of the engine to programmers, which was very daunting at first. 
 
 However, as I got more used to these different systems I found that the biggest frustrations I had with the engine compared to Unity 
 was the developer tools. Unreal Engine's live coding support sometimes just didn't seem to work, and it was far less seamless than
@@ -56,6 +50,23 @@ However, as I got into the flow of things I soon started to understand and even 
 different outlook on how things are done, and I found it's deep systems quite interesting to explore.
 
 ### 🙄 A Classic Grappling Hook
+The grapple hook I started with was designed in the style of link's hookshot from the legend of zelda, or something batman would use 
+to get around gotham city. It would connect to a single point and pull the player towards it, rather than being something used to 
+swing around. This was partly because I felt like since I was using tutorials it would be more suitable to do this and figure out 
+the physics myself, even though the uni would have been ok with me leaning on tutorials more and making smaller changes to the final
+product. 
+
+This worked by using a raycast to connect to a point of terrain, and then applying a force to the player character to move towards 
+that point. Add in a simple unreal engine cable for a visual effect to conenct the player to the point, and we have the most basic
+form of a grapple hook imaginable, and where the tutorial left me. This does have some problems though. The movement while in the air 
+as you grapple feelings very strange, as does falling immediately when you get to the top of a wall rather than getting on top of it.
+
+### 💡 Ideas For Improvement
+So what's next? 
+
+To transform this simple grappling hook into the web swing I envisioned, there was a lot of work still to do. The idea of connecting
+to a point on objects is useful, and it's fairly simply to make this check for objects of a specific type by using collision channels.
+
 
 
 
