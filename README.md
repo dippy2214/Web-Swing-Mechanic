@@ -106,6 +106,17 @@ player had starting the swing, and scale the velocity at the end of each tick to
 system very well, but there was still an issue when the player hit the end of the swing. I solved this by applying a simple upward 
 force at the end of the swing if the player was moving upwards.
 
+### 🐛 And They Don't Stop Coming
+As with most things, fixing the largest issue shed light on some smaller ones, so let's go through a few. 
+
+- The player's momentum was killed on contact with walls, which was fixed with the same maintaining of momentum as the losing momentum
+bug mentioned previously.
+- The player could swing round in circles, so I released the player to the default physics in the upper half of the swing.
+- The player was instantly dragged into a circular swing as soon as the grapple was connected, even if they were above the connection point,
+which took them outwards from the wall and felt very unintuitive, which was fixed by making the grapple function through a maximum distance
+from the grapple point which it constrained the player to.
+
+
 
 
 
