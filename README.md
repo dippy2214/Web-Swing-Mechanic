@@ -90,7 +90,9 @@ The axis vector k can also be defined as the cross product of any two non-zero v
 useful tool for my purposes. My idea is to find the plane between the player and the point on the wall which they are attached to by 
 using the point on the wall and the player's direction, and then apply the rotation formula to the player to create the swing effect.
 This took me some time to figure out all the maths and how to make this into a computer algorithm, but the implementation went relatively
-smooth.
+smooth. Unfortunately, there were still some unforseen effects to figure out.
+
+### 🐜 The Bugs
 
 
 
