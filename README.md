@@ -93,6 +93,14 @@ This took me some time to figure out all the maths and how to make this into a c
 smooth. Unfortunately, there were still some unforseen effects to figure out.
 
 ### 🐜 The Bugs
+The first and most obvious issue that emerged was that the player seemed to lose momentum very quickly. All speed seemed to be leaving 
+the system. At first I tried to fix this by not discarding the radial velocity (since normally it is insignificant and we only need
+tangential velocity), but this didn't solve it. What I believe the issue was is more to do with gravity, which consistently takes away
+from the upward part of the swing. This kicks in at the bottom of the swing and really stops all acceleration upwards, which serves to
+almost instantly kill all momentum the player has. This is where the issue with falling vs flying comes in - we can't just use the 
+flying state to get around this because of the bugs it can cause when landing, which require complicated systems to govern how the 
+exact interactions should behave and are error prone and hard to test all cases for.
+
 
 
 
