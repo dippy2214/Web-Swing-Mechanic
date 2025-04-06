@@ -116,6 +116,19 @@ bug mentioned previously.
 which took them outwards from the wall and felt very unintuitive, which was fixed by making the grapple function through a maximum distance
 from the grapple point which it constrained the player to.
 
+### 🏁 Conclusions And Reflections
+This project was very fun, although it was the least time consuming of my three modules in the first term of third year. Graphics took 
+a lot more of my time because it was quite difficult and content heavy, so despite being small this project was a nice break. I do wish I
+had more time to spend on it in the end, because there was a lot more I felt I could do. 
+
+In hindsight I think it would have been more fun to have the player swing on a vertical axis, with maybe a small force towards the walls. 
+I think I got caught up on the realistic maths and missed that something a bit simpler would make the game more fun. It would have been fun
+to add those other features the spider man games have like the zip to get back to the ground and a launch to get into the air, to make the
+movement more fluid.
+
+But all in all I view this as a success, not least because I passed the module easily. Learning about Unreal Engine was a great experience,
+and I think these skills will carry forward nicely to my future.
+
 
 
 
